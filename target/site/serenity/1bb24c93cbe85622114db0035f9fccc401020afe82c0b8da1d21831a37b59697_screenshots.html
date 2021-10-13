@@ -1,0 +1,249 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="e4325b042e798e411f5794b32a75c33e6b2d40424abbb373b3665bbaddd3e07c.html">Academy Choucair</a></span>
+                > <span class="truncate-60"><a
+                    href="1bb24c93cbe85622114db0035f9fccc401020afe82c0b8da1d21831a37b59697.html">As a user, I must enter the page unit, click on register and fill out the form </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 13-10-2021 10:03</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Academy Choucair </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user, I must enter the page unit, click on register and fill out the form
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='far fa-stop-circle pending-icon fa-2x' title='PENDING'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="pending-color">As a user, I must enter the page unit, click on register and fill out the form
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="8e660218db0d56e1565c2315407c775ae41a90c3294b13a6a06466af934c7447.png" title=" Given than dairon wants to register on the Utest page
+| strName | strLastName | strEmail | StrPassword | StrConfirmPassword |
+| Dairon | Altamairanda | daironale0@gmail.com | 1qw2er3rt45tY. | 1qw2er3rt45tY. |" width="2400"/>
+                <img src="8e660218db0d56e1565c2315407c775ae41a90c3294b13a6a06466af934c7447.png" title=" Dairon open up" width="2400"/>
+                <img src="8e660218db0d56e1565c2315407c775ae41a90c3294b13a6a06466af934c7447.png" title=" Dairon opens the Utest page" width="2400"/>
+                <img src="8e660218db0d56e1565c2315407c775ae41a90c3294b13a6a06466af934c7447.png" title=" Dairon open up (completed)" width="2400"/>
+                <img src="0e0e03f359c74f46400526bb9a36caa2c46e6235428a9eb9dd3c4496c3eafc3a.png" title=" Dairon register" width="2400"/>
+                <img src="0e0e03f359c74f46400526bb9a36caa2c46e6235428a9eb9dd3c4496c3eafc3a.png" title=" Dairon clicks on button that shows us the form to register" width="2400"/>
+                <img src="ef4ab5fa09590d025ed1fe8f80cd9bac21bae487c3ebcbe7e18c0d5119d8a725.png" title=" Dairon enters 'Dairon' into Where do write the user" width="2400"/>
+                <img src="0dd8eedefa5d753d621852d4c3cac65df4580cc47c416fb9b522043397201c3b.png" title=" Dairon enters 'Altamairanda' into Where do write the user" width="2400"/>
+                <img src="d0be3c675ace7a9d5f1d15ebfccd4de611084fa68d08a7cb5d02f0bf9d3a7d02.png" title=" Dairon enters 'daironale0@gmail.com' into Where do write the email" width="2400"/>
+                <img src="92b1685b7716dea9e253cb1ea3834efd19438eafc3c5102b3241703f15d39bd0.png" title=" Dairon clicks on Where choose the month of the birthday" width="2400"/>
+                <img src="8090f9e5cb8421d494eda4375e6eaf75c3d6e4aea7425446801f58b58a1ed5eb.png" title=" Dairon clicks on Where choose the name of the month of the birthday" width="2400"/>
+                <img src="eadffed3119532afda5083b169dfdc6c9d8a8f1d8f3bf8b0dcd99c1d4fbb0658.png" title=" Dairon clicks on Where choose the name of the month of the birthday" width="2400"/>
+                <img src="0d3e5e32f13e5c5a222f55d6942eb84bf1567996831c34b7b669d6a3aa5d2136.png" title=" Dairon clicks on Where choose the name of the month of the birthday" width="2400"/>
+                <img src="0d424d4ce6b2a74db237588b7d307a35b11493c08a55e6462ab5e92fddbf7c89.png" title=" Dairon clicks on Where choose the name of the month of the birthday" width="2400"/>
+                <img src="b5bb56707e9f66cc70d194558e6ec1675599440f568dfbc446fcf1ce24c593f3.png" title=" Dairon clicks on Where choose the name of the month of the birthday" width="2400"/>
+                <img src="1d82242a541a2a3025a28bb76e2ddf116a7a2f93175913e06887d68555705b58.png" title=" Dairon clicks on Where choose location" width="2400"/>
+                <img src="1496b5bd37bf939239fe834e2ce10b61718b476245399246c011b96fc92742be.png" title=" Dairon clicks on Where choose devices" width="2400"/>
+                <img src="e46d5a1a5f862d4384c1720f6c1477e257f3a28041a6609894e4133efdbc640b.png" title=" Dairon clicks on Where choose the Mobile Device:" width="2400"/>
+                <img src="f73eccc217c43eea270e15cd4ae7c0d91206b170ff7f98ca2b96e915528002b2.png" title=" Dairon clicks on Where choose the name of the mobile" width="2400"/>
+                <img src="6e37543e9c5f2f64d20b2ac15cf322b1e3088ed4d56814076c99449f2056dcc2.png" title=" Dairon clicks on Where choose the Mobile Device:" width="2400"/>
+                <img src="2e9551f0508c233ad1678fd808824ad4ccae12182512a6af7250e1937d03f76f.png" title=" Dairon clicks on Where choose the version of the mobile" width="2400"/>
+                <img src="489d5c94cee991fef2ae3fa14914839aaf91113dfe51a328c1f288075556ff74.png" title=" Dairon clicks on Where choose the Mobile Device:" width="2400"/>
+                <img src="36dac733e6bff1514a96ea01521b9197e0aba79ac40558d0ca97723b39f2c8a9.png" title=" Dairon clicks on Where choose the version of the mobile" width="2400"/>
+                <img src="d353cd97f34b10221151031f42becd7200d09e92e295e05f79dc16f8f4e00e25.png" title=" Dairon clicks on Where choose the last steps" width="2400"/>
+                <img src="8565c8a7cee18f92719db1fd0b4c3622efca31c481dc398ce0c3bc31ce9a1227.png" title=" Dairon enters '1qw2er3rt45tY.' into Where do write the password" width="2400"/>
+                <img src="edef12f8e17dccb0ca82b8b6a5eec5b1689090db2cfe7d65265450c407cc8d45.png" title=" Dairon enters '1qw2er3rt45tY.' into Where do confirm the password" width="2400"/>
+                <img src="0bd4c326263f9f692265204285d3be03772c54420550afe736495b7911a47c23.png" title=" Dairon clicks on Where accept the terms and conditions:" width="2400"/>
+                <img src="a8831bb73e7bcbeaefb409bb6a420de858d71d25a31a71ce2d208cf31a12445b.png" title=" Dairon clicks on Where accept the privacy and Security:" width="2400"/>
+                <img src="6c1a462087d60b4c8c7b372421ee159c6622d615853eff5089089ed1e0182802.png" title=" Dairon clicks on Where finish the form" width="2400"/>
+                <img src="6c1a462087d60b4c8c7b372421ee159c6622d615853eff5089089ed1e0182802.png" title=" Dairon register (completed)" width="2400"/>
+                <img src="6c1a462087d60b4c8c7b372421ee159c6622d615853eff5089089ed1e0182802.png" title=" Given than dairon wants to register on the Utest page
+| strName | strLastName | strEmail | StrPassword | StrConfirmPassword |
+| Dairon | Altamairanda | daironale0@gmail.com | 1qw2er3rt45tY. | 1qw2er3rt45tY. | (completed): <span class='pending-color'>PENDING</span>" width="2400"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
