@@ -12,10 +12,10 @@ public class UTestJoinPageStep1 extends PageObject{
     public static final Target  INPUT_EMAIL = Target.the( "Where do write the email").located(By.id("email"));
     public static final Target  MONTH_DATE = Target.the( "Where choose the month of the birthday").located(By.id("birthMonth"));
     public static final Target  MONTH_NAME = Target.the( "Where choose the name of the month of the birthday").located(By.xpath("//option[@label='January']"));
-    public static final Target  DAY_DATE = Target.the( "Where choose the name of the month of the birthday").located(By.id("birthDay"));
-    public static final Target  DAY_NUMBER = Target.the( "Where choose the name of the month of the birthday").located(By.xpath("//option[@label='10']"));
-    public static final Target  YEAR_DATE = Target.the( "Where choose the name of the month of the birthday").located(By.id("birthYear"));
-    public static final Target  YEAR_NUMBER = Target.the( "Where choose the name of the month of the birthday").located(By.xpath("//option[@label='1998']"));
+    public static final Target  DAY_DATE = Target.the( "Where choose the day of the birthday").located(By.id("birthDay"));
+    public static final Target  DAY_NUMBER = Target.the( "Where select the day of the birthday").located(By.xpath("//option[@label='10']"));
+    public static final Target  YEAR_DATE = Target.the( "Where choose the year of the birthday").located(By.id("birthYear"));
+    public static final Target  YEAR_NUMBER = Target.the( "Where select the name of the month of the birthday").located(By.xpath("//option[@label='1998']"));
     public static final Target  NEXT_LOCATION = Target.the( "Where choose location").located(By.xpath("//span[contains(text(),'Next: Location')]"));
 
 
