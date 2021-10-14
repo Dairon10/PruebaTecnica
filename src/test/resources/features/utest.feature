@@ -8,14 +8,19 @@
     Scenario: As a user, I must enter the page unit, click on register and fill out the form
 
       Given  than dairon wants to register on the Utest page
-        | strName   | strLastName   | strEmail                    |  StrPassword    | StrConfirmPassword |
-        | Dairon    | Altamairanda  | daironale0@gmail.com      |  1qw2er3rt45tY. | 1qw2er3rt45tY.     |
 
 
       When he fills out the first step of the registration form
+        | strName   | strLastName   | strEmail            | StrPassword    | StrConfirmPassword |
+        | Dairon    | Altamairanda  | daironalexxx@gmail.com |                |                    |
 
+      Then he fills out the second step of the registration form
 
-      Then Complete the entire form and create the user with a new password
+      And he fills out the third step of the registration form
+
+      And he fills out the fourth step of the registration form
+        | strName   | strLastName   | strEmail | StrPassword    | StrConfirmPassword |
+        |           |               |          | 1qw2er3rt45tY. | 1qw2er3rt45tY.     |
 
 
 
